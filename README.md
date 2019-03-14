@@ -10,3 +10,14 @@ When a bike or pedestrian enters the blindspot (both identified in code as a “
 ## Development Images
 ![Development](https://raw.githubusercontent.com/nuast/rpiTensorflowBlindspot/master/documentation/IMG_20190311_123431.jpg)
 Editing the object detection code using nano.
+
+### Who made this and when:
+Project start: Friday 1st March
+
+Installation and building of Tensorflow and object models: Wednesday 6th March - Saturday 10th March
+
+Programming: Monday March 10th - Monday March 17th
+
+Deadline: Monday March 17th
+
+This project was programmed, tested, documentated and completed in just over two weeks by [@ed6767](https://github.com/ed6767), [@retroaspie](https://github.com/retroaspie) and [@DRagaven](https://github.com/DRagaven)
