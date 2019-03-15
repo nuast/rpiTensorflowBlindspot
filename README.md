@@ -12,19 +12,41 @@ When a bike or pedestrian enters the blindspot (both identified in code as a “
 Editing the object detection code using nano.
 
 ## Installation guide:
-### Easy method : flash image
-Download the latest image off the releases page and flash it onto a SD card with atleast 32 GB. We'd reccomend using a class 3 SD card as they are faster but have less chance of being damaged.
+Requirements:
 
-### Hard method : building and installing
-[Follow this tutorial](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) to install tensorflow yourself, along with all other requirements. Then run `git clone https://github.com/nuast/rpiTensorflowBlindspot` to download the source files.
+Raspberry Pi 3 (different models may work but not at a frame rate that would be considered effective or safe for this project)
+
+A 32 GB+ SD card with respectable speed. We suggest SanDisk Extreme microSD cards for this project.
+
+A USB webcam with at least 640x480 in resolution that has drivers capable of taking still frames
+
+Speaker
+
+Pimoroni Unicorn HAT - [purchace](https://shop.pimoroni.com/products/unicorn-hat?variant=932565325&gclid=CjwKCAjwmq3kBRB_EiwAJkNDp7C9s3s6A3OEfNFTWRie_01ICHxPHcLrRpQghucTTW0C2z8eRGPvKRoCeh8QAvD_BwE)
+
+Time required:
+About 15 mins installation if flashing image provided.
+Over a day if you want to manually build and install TensorFlow.
+
+**WARNING**: It is important that the Raspberry Pi is fitted with a heatsink or else it is highly likely that the Pi will overheat, perform poorly and power off (*or even potentially damage your hardware*)!
+
+### Recommended method: Flash pre-built image
+First, download the latest system image from the Google Drive link on the latest [release](https://github.com/nuast/rpiTensorflowBlindspot/releases). Then, flash the SD card to your Pi using the tool of your choice, put the SD card into the Pi, plug it in and wait for the device to initialize (can take a few mins). Once initialized, the UnicornHat will scroll "Ready".
+
+### VERY ADVANCED AND TIME-CONSUMING: building and installing Tensorflow on the Pi
+[Follow this tutorial](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) to install TensorFlow onto your Pi, along with all other requirements. Then cd into your object detection model folder and run
+```
+git clone https://github.com/nuast/rpiTensorflowBlindspot
+```
+Run the main script as superuser (i.e using sudo) and check for errors.
 
 ### Who made this and when:
 Project start: Friday 1st March
 
 Installation and building of Tensorflow and object models: Wednesday 6th March - Saturday 10th March
 
-Programming: Monday March 10th - Monday March 17th
+Programming: Monday, March 10th - Monday, March 17th
 
-Deadline: Monday March 17th
+Deadline: Monday, March 17th
 
-This project was programmed, tested, documentated and completed in just over two weeks by [@ed6767](https://github.com/ed6767), [@retroaspie](https://github.com/retroaspie) and [@DRagaven](https://github.com/DRagaven)
+This project was programmed, tested, documented and completed in just over two weeks by [@ed6767](https://github.com/ed6767), [@retroaspie](https://github.com/retroaspie) and [@DRagaven](https://github.com/DRagaven) and is provided under the MIT Licence.
