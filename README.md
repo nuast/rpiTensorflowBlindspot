@@ -11,6 +11,13 @@ When a bike or pedestrian enters the blindspot (both identified in code as a “
 ![Development](https://raw.githubusercontent.com/nuast/rpiTensorflowBlindspot/master/documentation/IMG_20190311_123431.jpg)
 Editing the object detection code using nano.
 
+## Installation guide:
+### Easy method : flash image
+Download the latest image off the releases page and flash it onto a SD card with atleast 32 GB. We'd reccomend using a class 3 SD card as they are faster but have less chance of being damaged.
+
+### Hard method : building and installing
+[Follow this tutorial](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) to install tensorflow yourself, along with all other requirements. Then run `git clone https://github.com/nuast/rpiTensorflowBlindspot` to download the source files.
+
 ### Who made this and when:
 Project start: Friday 1st March
 
