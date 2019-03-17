@@ -10,6 +10,13 @@ When a bike or pedestrian enters the blindspot (both identified in code as a “
 [Read the full summary](https://github.com/nuast/rpiTensorflowBlindspot/blob/master/documentation/summary.md)
 
 <sub><sup>*Text-to-speech features are not present in v1 due to [compatibility issues](https://github.com/nuast/rpiTensorflowBlindspot/issues/1)</sub></sup>
+## Videos
+A video summary of this project
+[![gpxdznTmUTI](http://img.youtube.com/vi/gpxdznTmUTI/0.jpg)](http://www.youtube.com/watch?v=gpxdznTmUTI)
+Final Software Tweaks Stream in which this project is completed
+[![okay epic](http://img.youtube.com/vi/T4XK5zXsulg/0.jpg)](http://www.youtube.com/watch?v=T4XK5zXsulg)
+Video of this project working is coming soon.
+
 ## Development Images
 ![Development](https://raw.githubusercontent.com/nuast/rpiTensorflowBlindspot/master/documentation/IMG_20190311_123431.jpg)
 Editing the object detection code using nano.
