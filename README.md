@@ -13,6 +13,8 @@ When a bike or pedestrian enters the blindspot (both identified in code as a “
 ## Development Images
 ![Development](https://raw.githubusercontent.com/nuast/rpiTensorflowBlindspot/master/documentation/IMG_20190311_123431.jpg)
 Editing the object detection code using nano.
+![d2](https://raw.githubusercontent.com/nuast/rpiTensorflowBlindspot/master/documentation/Screenshot%20from%202019-03-17%2014-58-13.png)
+Programming using Visual Studio Code.
 
 ## Installation guide:
 Requirements:
