@@ -57,6 +57,8 @@ sudo pip3 install unicornhat
 sudo pip3 install bitarray
 git clone https://github.com/topshed/UnicornHatScroll
 git clone https://github.com/nuast/rpiTensorflowBlindspot
+rm utils/visualization_utils.py
+mv visualization_utils.py utils
 ```
 Run the main script as superuser (i.e using sudo) and check for errors.
 ```
