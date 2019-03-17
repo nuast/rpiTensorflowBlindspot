@@ -44,7 +44,8 @@ First, download the latest system image from the Google Drive link on the latest
 git clone https://github.com/nuast/rpiTensorflowBlindspot
 ```
 Run the main script as superuser (i.e using sudo) and check for errors.
-
+#### Usage
+When fully set up, plug in the Pi and it should boot into the Python script which will take one to two mins to initalise.
 ### Who made this and when:
 Project start: Friday 1st March
 
