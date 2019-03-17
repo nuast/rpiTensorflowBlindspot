@@ -50,11 +50,18 @@ Over a day if you want to manually build and install TensorFlow.
 First, download the latest system image from the Google Drive link on the latest [release](https://github.com/nuast/rpiTensorflowBlindspot/releases). Then, flash the SD card to your Pi using the tool of your choice, put the SD card into the Pi, plug it in and wait for the device to initialize (can take a few mins). Once initialized, the UnicornHat will scroll "Ready".
 
 ### VERY ADVANCED AND TIME-CONSUMING: building and installing Tensorflow on the Pi
-[Follow this tutorial](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) to install TensorFlow onto your Pi, along with all other requirements. Then cd into your object detection model folder and run
+[Follow this tutorial](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi) to install TensorFlow onto your Pi, along with all other requirements. Then run:
 ```
+cd (YOUR TENSORFLOW DIRECTORY)/models/research/object_detection
+sudo pip3 install unicornhat
+sudo pip3 install bitarray
+git clone https://github.com/topshed/UnicornHatScroll
 git clone https://github.com/nuast/rpiTensorflowBlindspot
 ```
 Run the main script as superuser (i.e using sudo) and check for errors.
+```
+sudo Obj*.py --usbcam
+```
 #### Usage
 When fully set up, plug in the Pi and it should boot into the Python script which will take one to two mins to initalise.
 ### Who made this and when:
