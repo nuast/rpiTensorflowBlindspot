@@ -1,3 +1,6 @@
+##### Project Discontiuned
+This project is discontiuned until further notice.
+
 # Raspberry Pi TensorFlow machine learning object detecting blind spot camera and warning system for vehicles
 Made for the PA Pi Competition 2019
 
